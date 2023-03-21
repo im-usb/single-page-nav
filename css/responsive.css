@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+    nav ul {
+        flex-wrap: inherit;
+        overflow: auto;
+        width: 100%;
+        gap: 12px 20px;
+    }
+
+    nav ul li a {
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+}

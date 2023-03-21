@@ -1,0 +1,98 @@
+* {
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.container {
+    max-width: 1470px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: block;
+}
+
+header {
+    border-color: #999;
+    border-style: solid;
+    border-width: 1px 0;
+    /* position: fixed; */
+    width: 100%;
+    background-color: #FFF;
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 12px 30px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0 0 4px ;
+    font-weight: 600;
+    padding: 30px 0;
+    white-space: nowrap;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 15px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+
+#roles {
+    background-color: lightblue;
+}
+#benefits {
+    display: none;
+    background-color: lightgreen;
+}
+#work {
+    display: none;
+    background-color: palevioletred;
+}
+#recruit {
+    display: none;
+    background-color: orange;
+}
+#future {
+    display: none;
+    background-color: burlywood;
+}
+
+nav ul li.active {
+    border-color: black;
+    border-width: 0 0 4px;
+}
+
+nav ul li.active a {
+    color: #3333ff;
+}
